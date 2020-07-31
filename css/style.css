@@ -1,0 +1,353 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.main{
+	display: flex;
+}
+
+.mainleft,
+.mainright{
+	height: auto;
+}
+
+.mainleft{
+	width: 37%;
+	justify-content: center;
+	background-color: #fefefe;
+}
+
+.mainright{
+	width: 63%;
+	height: 100%;
+	background-image: linear-gradient(to right bottom, #2EB62C, rgba(46, 182, 44, 0.5)), url('../images/rightbanner.jpg');
+	background-size: cover;
+}
+
+.leftwrapper{
+	width: 100%;
+	padding: 5% 10% 0 10%;
+}
+
+.rightwrapper{
+	width: 100%;
+	padding: 15% 10% 0 10%;
+}
+
+/*=======================END OF DIVS===========================*/
+
+.btn-kippy{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 18px;
+	width: 30%;
+}
+
+.btn-kippy:hover{
+	background-color: #fff;
+	color: #2EB62C;
+	border: 1px solid #fff;
+}
+
+.card-img-top{
+	height: 150px;
+}
+
+.card-text{
+	font-size: 0.9rem;
+}
+
+.card-kippy{
+	width: 50%;
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+}
+
+.card-kippy:nth-child(2){
+	margin-left: 5%;
+}
+
+.fa-window-close{
+	color: #fff;
+	font-size: 1.4rem;
+	cursor: pointer;
+}
+
+.menu-box-kippy{
+	display: flex;
+}
+
+.box-kippy{
+	width: 30%;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	margin-left: 3%;
+}
+
+.box-kippy p{
+	color: #fff;
+	font-weight: bold;
+}
+
+.box-kippy:hover{
+	background-color: #fff;
+	color: #111;
+	cursor: pointer;
+}
+
+.box-kippy:hover .fas,
+.box-kippy:hover p,
+.box-kippy:hover .far{
+	color: #111;
+}
+
+.fa-money-check-alt,
+.fa-question-circle,
+.fa-hands-helping,
+.fa-globe-asia,
+.fa-download,
+.fa-sign-in-alt{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+
+#sidebar-kippy{
+	height: 100%;
+	width: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	transition: 0.5s;
+	padding-top: 60px;
+	z-index: 2;
+}
+
+#openbtn-kippy{
+	border: none;
+	padding: 5px;
+	background-color: #2EB62C;
+	position: absolute;
+	top: 5%;
+	right: 50px;
+}
+
+#openbtn-kippy2{
+	display: none;
+	border: none;
+	padding: 5px;
+	background-color: #2EB62C;
+	position: absolute;
+	top: 5%;
+	right: 50px;
+}
+
+#closebtn-kippy{
+	background-color: #111;
+	color: #818181;
+	border: 2px solid #818181;
+	padding: 0 7px 0 7px;
+	margin-left: 5%;
+}
+
+#closebtn-kippy:hover{
+	border-color: #f1f1f1;
+	color: #f1f1f1;
+}
+
+/*========================END OF RIGHT SIDE SETTINGS=================================*/
+
+.imgbirlogo{
+	width: 150px;
+	height: 150px;
+	background-image: url('../images/logo.webp');
+	margin-left: 120px;
+	margin-bottom: 20px;
+}
+
+.form-kip{
+	display: flex;
+	border: 1px solid #e6e6e6;
+    border-radius: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.input-kip{
+	padding: 15px 25px;
+	width: 100%;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	font-size: 14px;
+}
+
+.fa-fingerprint,
+.fa-user,
+.fa-user-lock{
+	color: #bbb;
+	font-size: 1.2rem;
+}
+
+.btn-kippy2{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	background-image: linear-gradient(to right, #57C84D, rgb(46, 182, 44));
+	border: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 15px 25px;
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+}
+
+.social-holder-kippy{
+	display: flex;
+}
+
+.social-kippy{
+	justify-content: center;
+	width: 24%;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 50px;
+	border: 1px solid #ddd;
+}
+
+.social-kippy:not(:nth-child(1)){
+	margin-left: 4.5%;
+}
+
+.fab{
+	font-size: 1.5rem;
+}
+
+.fa-facebook-f{
+	color: #3B5998;
+}
+
+.fa-google-plus-g{
+	color: #db3236;
+}
+
+.fa-twitter{
+	color: #00ACEE;
+}
+
+.fa-linkedin-in{
+	color: #0E76A8;
+}
+
+.social-kippy:nth-child(1):hover{
+	background-color: #3B5998;
+}
+.social-kippy:nth-child(1):hover .fa-facebook-f{
+	color: #fff;
+}
+
+.social-kippy:nth-child(2):hover{
+	background-color: #db3236;
+}
+.social-kippy:nth-child(2):hover .fa-google-plus-g{
+	color: #fff;
+}
+
+.social-kippy:nth-child(3):hover{
+	background-color: #00ACEE;
+}
+.social-kippy:nth-child(3):hover .fa-twitter{
+	color: #fff;
+}
+
+.social-kippy:nth-child(4):hover{
+	background-color: #0E76A8;
+}
+.social-kippy:nth-child(4):hover .fa-linkedin-in{
+	color: #fff;
+}
+/*========================END OF LEFT SIDE SETTINGS=================================*/
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+	#openbtn-kippy2{
+		display: block;
+	}
+
+	#openbtn-kippy{
+		display: none;
+	}
+
+	.main{
+		flex-direction: column;
+	}
+
+	#openbtn-kippy2{
+		border: none;
+		background-color: #2EB62C;
+		position: relative;
+		top: 10px;
+		left: 20px;
+	}
+
+	h1.display-4{
+		font-size: 2rem;
+	}
+
+	p.lead{
+		font-size: 1rem;
+	}
+
+	.btn-kippy{
+		width: 100%;
+	}
+
+	.card-kippy{
+		width: 100%;
+	}
+
+	.card-kippy:nth-child(2){
+		margin-top: 20px;
+		margin-left: 0;
+	}
+
+	#container-kippy{
+		flex-direction: column;
+	}
+
+	.imgbirlogo{
+		margin-left: 25%;
+	}
+
+	.mainleft{
+		width: 100%;
+	}
+
+	.mainright{
+		width: 100%;
+	}
+}

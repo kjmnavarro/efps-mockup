@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="BIR Inspiration Web Design &amp; Personal Project Only">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Kieffer Navarro">
+
+	<title>eFPS | Bureau of Internal Revenue</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&amp;display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<main class="main">
+
+	<div class="mainleft">
+		<div class="leftwrapper">
+			<!-- <img src="images/logo.webp"> -->
+			<div class="imgbirlogo"></div>
+			<div class="text-center pb-5">
+				<h3>Electronic Filing and Payment System</h3>
+			</div>
+
+			<form>
+				<div class="form-group">
+					<div class="form-kip justify-content-center align-items-center">
+						<i class="fas fa-fingerprint"></i>
+						<input class="input-kip" id="tinnumber" type="text" name="tinnumber" placeholder="TIN: 0000-0000-0000-0000">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="form-kip justify-content-center align-items-center">
+						<i class="fas fa-user"></i>
+						<input class="input-kip" id="username" type="text" name="username" placeholder="Username">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="form-kip justify-content-center align-items-center">
+						<i class="fas fa-user-lock"></i>
+						<input class="input-kip" id="password" type="password" name="password" placeholder="Password">
+					</div>
+				</div>	
+
+				<div class="form-group">
+					<button type="submit" class="btn-kippy2">LOGIN</button>
+				</div>
+
+				<div class="form-group text-center pb-1">
+					<p>Dont have an account? <strong style="color: #2EB62C;">Sign Up Now</strong></p>
+				</div>
+
+				<div class="form-group text-center pb-1">
+					<p>OR</p>
+				</div>
+
+				<div class="form-group text-center pb-1">
+					<p>Follow us on social media</p>
+				</div>
+
+				<div class="form-group text-center pb-5">
+					<div class="social-holder-kippy">
+						<div class="social-kippy">
+							<i class="fab fa-facebook-f"></i>
+						</div>
+						<div class="social-kippy">
+							<i class="fab fa-google-plus-g"></i>
+						</div>
+						<div class="social-kippy">
+							<i class="fab fa-twitter"></i>
+						</div>
+						<div class="social-kippy">
+							<i class="fab fa-linkedin-in"></i>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group text-center">
+					<small>
+						NOTE: I'm not associated with BIR or any government organization. This website design is just a personal project only. Thank you!
+					</small>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+
+	<div class="mainright">
+
+		<nav id="sidebar-kippy">
+			<button id="closebtn-kippy" onclick="closeNav()">x</button>
+			<h4 class="text-white p-4">Menu</h4>
+			
+			<div class="menu-box-kippy text-center">
+				<div class="box-kippy p-4">
+					<i class="fas fa-money-check-alt pt-2"></i>
+					<p class="pt-2">Revenue Issuance</p>
+				</div>
+				<div class="box-kippy p-4">
+					<i class="far fa-question-circle pt-2"></i>
+					<p class="pt-2">FAQ</p>
+				</div>
+				<div class="box-kippy p-4">
+					<i class="fas fa-hands-helping pt-2"></i>
+					<p class="pt-2">Job Aids</p>
+				</div>
+			</div>
+
+			<div class="menu-box-kippy text-center pt-3">
+				<div class="box-kippy p-4">
+					<i class="fas fa-globe-asia pt-2"></i>
+					<p class="pt-2">BIR Main Site</p>
+				</div>
+				<div class="box-kippy p-4">
+					<i class="fas fa-download pt-2"></i>
+					<p class="pt-2">Downloads</p>
+				</div>
+				<div class="box-kippy p-4">
+					<i class="fas fa-sign-in-alt pt-2"></i>
+					<p class="pt-2">Login</p>
+				</div>
+			</div>
+		</nav>
+
+		<button id="openbtn-kippy" onclick="openNav()"><i class="fas fa-bars"></i></button>
+		<button id="openbtn-kippy2" onclick="openNav2()"><i class="fas fa-bars"></i></button>
+
+		<div class="rightwrapper">
+			<h1 class="display-4 text-white font-weight-bold">Welcome to <br>Electronic Filing and Payment System</h1>
+			<p class="lead text-white pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+			<button class="btn-kippy">Learn more</button>
+
+			<div class="container-fluid mt-5 pt-5 d-flex" id="container-kippy">
+				<div class="card-kippy">
+					<img src="images/filing.jpg" class="card-img-top" alt="eFiling">
+					<div class="d-flex justify-content-between">
+						<h3 class="p-2 m-3 badge badge-success">What is eFILING?</h3>
+						<small class="p-3">July 31, 2020</small>
+					</div>
+				    
+				    <p class="card-text font-weight-bold p-3">e-Filing is the process of electronically filing returns including attachments, if any, specifically through the internet.</p>
+				</div>
+
+				<div class="card-kippy">
+					<img src="images/payment.jpg" class="card-img-top" alt="eFiling">
+					<div class="d-flex justify-content-between">
+						<h3 class="p-2 m-3 badge badge-primary">What is ePAYMENT?</h3>
+						<small class="p-3">July 31, 2020</small>
+					</div>
+				    
+				    <p class="card-text font-weight-bold p-3">e-Payment is the process of electronically paying a tax liability through the internet banking facilities of Authorized Agent Banks (AABs).</p>
+				</div>
+			</div>
+
+			<div class="col-md-12 mt-5 pb-5">
+				<footer class="text-white">
+					&copy; Copyright Design by Kieffer John M. Navarro
+				</footer>
+			</div>
+			
+
+		</div> <!-- /rightwrapper -->
+	</div> <!-- /mainright -->
+</main>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
